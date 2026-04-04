@@ -93,7 +93,7 @@ export function Demo() {
                     {sidebarOpen ? <span className="text-xl leading-none">◀</span> : <span className="text-xl leading-none">▶</span>}
                 </button>
                 {homeMode !== 'HOME' && (
-                    <h1 className="text-lg font-semibold text-white">localGPT</h1>
+                    <h1 className="text-lg font-semibold text-white">MU Smart Study Assistant</h1>
                 )}
             </header>
             {/* Main content row */}
@@ -114,7 +114,7 @@ export function Demo() {
                         <div className="flex items-center justify-center h-full">
                             <div className="space-y-8">
                                 <div className="text-center space-y-2">
-                                    <h1 className="text-4xl font-bold text-white">LocalGPT</h1>
+                                    <h1 className="text-4xl font-bold text-white">MU Smart Study Assistant</h1>
                                     <p className="text-lg text-gray-400">What can I help you find today?</p>
                                 </div>
 

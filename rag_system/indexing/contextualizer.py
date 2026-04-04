@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Define the structured prompt templates, adapted from the example
-SYSTEM_PROMPT = "You are an expert at summarizing and providing context for document sections based on their local surroundings."
+SYSTEM_PROMPT = "You are an expert IT Engineering professor at Mumbai University. Your job is to help a 6th-semester student understand complex topics in AI, Ethical Hacking, Data Mining, and Wireless Technology. Answer strictly based on the provided syllabus and question banks."
 
 LOCAL_CONTEXT_PROMPT_TEMPLATE = """<local_context>
 {local_context_text}
